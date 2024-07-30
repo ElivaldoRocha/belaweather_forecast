@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar-brand {
+  font-family: Pacifico, cursive;
+}
+
+.navbar {
+  background-color: #212529;
+}
+
+.nav-link.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.sectin-title {
+  font-family: Pacifico, cursive;
+}
+
+.nav-pills .nav-link {
+  color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
+
+.text-container {
+  flex: 1;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.flex-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 1000px; /* Ajuste conforme necessário */
+}
+
+/* Classe em index.html */
+.container {
+  max-width: 1600px; /* Aumentando a largura máxima do contêiner */
+  margin: 0 auto; /* Centralizando o contêiner */
+}
+
+/* Classe em domingo.html */
+.forecast-container {
+  background-color: #000;
+  border-radius: 20px;
+  padding: 45px;
+  max-width: 100%; /* Aumentando a largura máxima do contêiner */
+  margin: 0 auto; /* Centralizando o contêiner */
+}
+
+.title-sobre,
+.title-domingo,
+.title-segunda,
+.title-terca,
+.title-quarta,
+.title-quinta,
+.title-sexta,
+.title-sabado {
+  text-align: center;
+  width: 100%;
+  cursor: pointer; /* Define o cursor como mãozinha */
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Reduzi um pouco o gap para otimizar o espaço */
+}
+
+.carousel-container {
+  position: relative;
+  flex: 1; /* Ajustando a proporção para dar mais espaço ao boletim */
+}
+
+.bulletins-container {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1; /* Ajustando a proporção para dar mais espaço ao boletim */
+  max-width: 40%; /* Definindo uma largura máxima */
+}
+
+/* Ajustando os botões do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: -5%; /* Ajustando a posição para fora da imagem */
+}
+
+.carousel-control-next {
+  right: -5%; /* Ajustando a posição para fora da imagem */
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.show {
+  display: flex; /* Mantém o layout flex quando expandido */
+}
+
+/* Responsividade para smartphones e tablets */
+@media (max-width: 992px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-container,
+  .bulletins-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Rodapé */
+#footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 40px 0;
+}
+
+#footer .sectin-title {
+  font-family: Pacifico, cursive;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#footer .sectin-title span {
+  color: #4144e1;
+}
+
+#footer p {
+  font-size: 16px; /* Aumenta o tamanho da fonte */
+  line-height: 1.6;
+  text-align: justify; /* Justifica o texto */
+}
+
+#footer .form-label {
+  font-weight: bold;
+  color: #fff;
+}
+
+#footer .btn-primary {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+#footer .btn-primary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#footer .social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+#footer .social-links li {
+  margin-right: 10px;
+}
+
+#footer .social-links a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#footer .social-links a:hover {
+  color: #fff;
+}
+
+.bulletins-container {
+  text-align: justify;
+}
