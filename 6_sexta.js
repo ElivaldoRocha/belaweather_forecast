@@ -1,48 +1,53 @@
 const bulletinsSexta = [
   {
     title: "<i class='bi bi-cloud-lightning-rain-fill'></i> Precipitação:",
-    text: "A precipitação é mais intensa no Sul do Brasil, especialmente sobre o Rio Grande do Sul e Santa Catarina, onde são registrados acumulados significativos (Porto Alegre com 9,6 mm e Curitiba com 15,8 mm).<br><br>Áreas de instabilidade também são observadas na faixa litorânea do Nordeste, com acumulados menores em cidades como Recife (1,3 mm) e João Pessoa (3,9 mm).<br><br> Na região Norte, Boa vista regista 3,8 mm e Belém com 2,6 mm, observa-se precipitação significativa nos muinicios próximos ao sul da Ilha de Marajó",
+    text: "A distribuição de precipitação mostra acumulados significativos no extremo norte do Brasil, especialmente em Boa Vista (5,3 mm) e Manaus (1,4 mm). As demais regiões apresentam pouca ou nenhuma precipitação, indicando um dia relativamente seco na maior parte do país. No nordeste, Salvador registra 1,8 mm.<br><br> Na região sul, Porto Alegre registra acumulados de 0 mm.",
   },
   {
     title: "<i class='bi bi-speedometer'></i> Pressão:",
-    text: "A presença de um sistema de alta pressão (1033 hPa) no sul do continente, próximo ao litoral da Argentina, influencia fortemente as condições climáticas na região. Esse sistema é responsável pela estabilidade atmosférica e pelo tempo seco em grande parte do sul do Rio Grande do Sul e Argentina.",
+    text: "A análise da pressão atmosférica revela várias áreas de baixa pressão sobre o continente, especialmente no extremo norte do país (901 hPa) no cone sul (782 hPa), baixas pessões estão associadas a instabilidades e condições de mau tempo.<br><br> A Alta Subtropical do Atlântico Sul (ASAS), 1022 hPa, está atuando com influência direta na costa brasileira, altas pressões estão associadas a estabilidades e condições de bom tempo.",
   },
   {
     title: "<i class='bi bi-cloud-sun'></i> Radiação de Onda Longa:",
-    text: "Reflete a emissão de energia térmica da superfície terrestre para a atmosfera. As áreas com maior ROL estão associadas a temperaturas mais elevadas, indicando intensa perda de energia térmica durante o período noturno.<br><br>As áreas com maior emissão de radiação de onda longa estão concentradas no norte e nordeste do Brasil.<br><br> Destaques para Boa Vista (427,1 W/m²), Manaus (430,7 W/m²) e Cuiabá (385,5 W/m²).",
+    text: "A Radiação de Onda Longa (ROL) reflete a emissão de energia térmica da superfície terrestre para a atmosfera. As áreas com maior ROL estão associadas a temperaturas mais elevadas, indicando intensa perda de energia térmica durante o período noturno.<br><br>As áreas com maior emissão de ROL estão concentradas no norte e nordeste do Brasil.<br><br> Destaques para Boa Vista (428,0 W/m²), Manaus (419,2 W/m²) e Cuiabá (378,9 W/m²).",
   },
   {
     title: "<i class='bi bi-sun'></i> Radiação de Onda Curta:",
-    text: "A radiação de onda curta (ROC) representa a energia solar que atinge a superfície terrestre. As áreas com maior ROC estão associadas a intensa insolação, contribuindo para temperaturas elevadas durante o dia.<br><br>As áreas com maior incidência de ROC estão concentradas no norte e nordeste do Brasil.<br><br> Destaques para Boa Vista (427,1 W/m²), Manaus (430,7 W/m²) e Cuiabá (385,5 W/m²).",
+    text: "A radiação de onda curta (ROC) representa a energia solar que atinge a superfície terrestre. As áreas com maior ROC estão associadas a intensa insolação, contribuindo para temperaturas elevadas durante o dia.<br><br>As áreas com maior incidência de ROC estão concentradas no norte e nordeste do Brasil.<br><br> Destaques para Boa Vista (428,0 W/m²), Manaus (419,2 W/m²) e Cuiabá (378,9 W/m²).",
   },
   {
     title: "<i class='bi bi-thermometer-high'></i> Temperatura Máxima:",
-    text: "As máximas mais elevadas são registradas no norte do continente, com valores superiores a 33°C em Palmas (33.4°C) e Teresina (35,5°C).",
+    text: "Indicam calor intenso nas regiões Norte e Nordeste do Brasil, com temperaturas acima de 32°C em cidades como Manaus (33,2°C), Belém (32,8°C) e Teresina (33,3°C).<br><br> As regiões Sul e Sudeste apresentam máximas elevadas para este período de inverno, variando de 21°C a 30°C.",
   },
   {
     title: "<i class='bi bi-thermometer-half'></i> Temperatura Média:",
-    text: "As médias refletem essa distribuição, com valores mais altos no norte e mais baixos no sul, demonstrando o efeito da latitude e das condições sinóticas.",
+    text: "Também segue um padrão semelhante, destacando o calor persistente no Norte e Nordeste e temperaturas moderadas no Sul e Sudeste. As temperaturas médias variam entre 20°C e 30°C em grande parte do território brasileiro.",
   },
   {
     title: "<i class='bi bi-thermometer-low'></i> Temperatura Mínima:",
-    text: "As temperaturas mínimas são mais amenas no sul, Porto Alegre registra 15,2°C.",
+    text: "Variam significativamente, com regiões do Sul apresentando valores mais baixos, como Porto Alegre (12,9°C), Florianópolis (14,9°C) e Curitiba (14,8°C).<br><br> Enquanto o Norte e Nordeste registram mínimas mais altas, como Manaus (25,4°C) e Natal (23,1°C).",
+  },
+  {
+    title:
+      "<i class='bi bi-thermometer-sun'></i><i class='bi bi-thermometer-snow'></i> Amplitude Térmica:",
+    text: "A amplitude térmica é elevada em diversas partes do Brasil, indicando dias quentes seguidos de noites relativamente frias. Nas capitais litorâneas, a amplitude térmica é menor por causa da alta umidade relativa.<br><br> Destacam-se Rio Branco (12,8°C), Brasília (11,0°C), São Paulo (14,2°C), Teresina (12,2°C) e Belo Horizonte (17,8°C).",
   },
   {
     title: "<i class='bi bi-droplet-half'></i> Umidade Relativa:",
-    text: "A umidade relativa apresenta altos valores na Amazônia, refletindo a intensa evapotranspiração da região. Manaus registra 71,6%, enquanto Boa Vista apresenta 83,1%.<br><br> Porto Alegre registra umidade relativa de 92,4%",
+    text: "Os níveis de umidade relativa são elevados no Norte e Nordeste próximo ao litoral, com valores acima de 70%, favorecendo condições de maior desconforto térmico nessas áreas.<br>Alerta-se para regiões que apresentam baixa umidade relativa:<br>Na região conhecida como MATUPIBA (Maranhão, Tocantins, Piauí e Bahia) com umidade igual ou abaixo dos 50%.<br>No Centro-Oeste a umidade está igual ou abaixo dos 50%,<br>No Sudeste, São Paulo e Minas Gerais, apresentam umidade igual ou abaixo dos 50%,<br>Na região Sul, apresenta níveis mais altos, acima dos 80%. Exceto grande parte do Estado do Paraná com umidade igual ou abaixo dos 50%.",
   },
   {
     title: "<i class='bi bi-moisture'></i> Umidade Específica:",
-    text: "A umidade específica é também elevada na região Norte, com valores superiores a 20 g/kg em Boa Vista e Macapá, indicando uma atmosfera bastante úmida.<br><br>Contrariamente, áreas no centro-oeste e sudeste do Brasil, como Brasília (DF) e Goiânia (GO), apresentam umidade relativa e específica menores, com valores de 45% e 10.6 g/kg, respectivamente, indicando condições mais secas.",
+    text: "Destaca-se maior concentração de vapor d'água na atmosfera na região Norte próximo a costa e países visinhos na faixa equatorial com valores acima de 16 g/kg.<br> Em grande parte do país, apresenta valores que vai de 8 a 15 g/kg.<br>As regiões brasileiras que estão mais próximas ao Trópico de Capricórnio apresentão umidade específica abaixo de 8 g/kg",
   },
   {
     title: "<i class='bi bi-wind'></i> Velocidade do Vento:",
-    text: "Ventos fortes são observados na costa leste da América do Sul, associados aos sistemas de baixa pressão. Velocidades significativas de até 9 m/s são registradas no Oceano Atlântico adjacente ao Sul do Brasil.<br><br>O interior do continente apresenta ventos mais calmos, com velocidades inferiores a 2 m/s em grande parte das regiões.",
+    text: "A velocidade do vento é moderada na maior parte do Brasil, com velocidades médias entre 2 (7,2 km/h) e 5 m/s (18 km/h).<br><br>No entanto, áreas ao sul do continente, próximas aos sistemas de baixa pressão, apresentam ventos mais intensos, que podem afetar as condições de navegação e aviação.",
   },
   {
     title:
       "<i class='bi bi-tropical-storm'></i> Gradiente Térmico Sobre Oceânos:",
-    text: "<ul><li><strong>Frentes:</strong>O gradiente térmico revela a presença de frentes frias na América do Sul. Uma frente fria pode ser observada avançando pelo cone sul, associada a um sistema de baixa pressão (790 hPa) na região do Chile e Argentina. Pode-se obervar outra frente fria atuando sobre o extremo norte do Rio Grande do Sul e Santa Catarina. Esta frente fria contribue para a diminuição das temperaturas nas áreas ao sul.</li><li><strong>Zona de Convergência Intertropical:</strong>A ZCIT não está bem definida, porém, percebe-se atuação no hemisfério norte com maior intensidade ao leste, próxima da linha do Equador. Este sistema é responsável por promover condições de maior instabilidade e precipitação nas regiões próximas, especialmente no norte da Amazônia e partes do Caribe.</li></ul>",
+    text: "<ul><li><strong>Frentes:</strong> Uma frente fria pode ser observada avançando pela costa do cone Sul-Americano no Pacífico associada ao centro de baixa pressão 782 hPa.</li><li><strong>Zona de Convergência Intertropical:</strong> A ZCIT está bem definida e atuando no hemisfério norte, próxima da linha do Equador. Este sistema é responsável por promover condições de maior instabilidade e precipitação nas regiões próximas, especialmente no norte da Amazônia (no verão do hemisfério sul) e partes do Caribe, como indicado pela baixa pressão (1012 hPa).</li></ul>",
   },
 ];
 
